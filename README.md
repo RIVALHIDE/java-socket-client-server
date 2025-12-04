@@ -22,6 +22,40 @@ It demonstrates how a client can connect to a server, exchange messages/data, an
 *(Update or remove any feature that doesn’t match your actual code.)*
 
 ---
+## 🚀 How to Run
+
+1️⃣ Compile the files
+
+Open terminal in the project folder and run:
+   javac Server.java Client.java
+
+2️⃣ Start the Server
+
+Run:
+
+   java Server
+
+Example server output:
+
+Server started on port 5000
+Waiting for client connection...
+
+3️⃣ Start the Client
+
+Open another terminal window and run:
+
+java Client
+
+
+If your client asks for IP/Port:
+
+Enter server IP: 127.0.0.1
+Enter server port: 5000
+
+
+Once connected, clients can chat securely with each other.
+
+---
 
 ## 🛠 Tech Stack
 
